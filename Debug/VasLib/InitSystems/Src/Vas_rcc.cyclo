@@ -1,0 +1,8 @@
+../VasLib/InitSystems/Inc/Vas_rcc.h:18:8:constexpr HSI_config::HSI_config()	1
+../VasLib/InitSystems/Inc/Vas_rcc.h:11:8:constexpr HSE_config::HSE_config()	1
+../VasLib/InitSystems/Inc/Vas_rcc.h:4:8:constexpr pll_config::pll_config()	1
+../VasLib/InitSystems/Inc/Vas_rcc.h:24:8:constexpr rcc_mode_config::rcc_mode_config()	1
+../VasLib/InitSystems/Src/Vas_rcc.cpp:5:1:rcc_system::rcc_system(short int)	2
+../VasLib/InitSystems/Src/Vas_rcc.cpp:15:6:bool rcc_system::init()	5
+../VasLib/InitSystems/Src/Vas_rcc.cpp:28:6:bool rcc_system::init_HSE()	2
+../VasLib/InitSystems/Src/Vas_rcc.cpp:45:6:bool rcc_system::init_HSI()	1

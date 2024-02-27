@@ -1,16 +1,19 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (10.3-2021.10)
+# Toolchain: GNU Tools for STM32 (11.3.rel1)
 ################################################################################
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../VasLib/Src/Vas_rcc.cpp \
 ../VasLib/Src/Vas_uart.cpp 
 
 OBJS += \
+./VasLib/Src/Vas_rcc.o \
 ./VasLib/Src/Vas_uart.o 
 
 CPP_DEPS += \
+./VasLib/Src/Vas_rcc.d \
 ./VasLib/Src/Vas_uart.d 
 
 
@@ -21,7 +24,7 @@ VasLib/Src/%.o VasLib/Src/%.su VasLib/Src/%.cyclo: ../VasLib/Src/%.cpp VasLib/Sr
 clean: clean-VasLib-2f-Src
 
 clean-VasLib-2f-Src:
-	-$(RM) ./VasLib/Src/Vas_uart.cyclo ./VasLib/Src/Vas_uart.d ./VasLib/Src/Vas_uart.o ./VasLib/Src/Vas_uart.su
+	-$(RM) ./VasLib/Src/Vas_rcc.cyclo ./VasLib/Src/Vas_rcc.d ./VasLib/Src/Vas_rcc.o ./VasLib/Src/Vas_rcc.su ./VasLib/Src/Vas_uart.cyclo ./VasLib/Src/Vas_uart.d ./VasLib/Src/Vas_uart.o ./VasLib/Src/Vas_uart.su
 
 .PHONY: clean-VasLib-2f-Src
 

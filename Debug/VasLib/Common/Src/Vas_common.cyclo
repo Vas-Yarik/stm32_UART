@@ -1,0 +1,2 @@
+../VasLib/Common/Src/Vas_common.cpp:4:7:bool reg_32bit::setBit(bool, uint32_t)	2
+../VasLib/Common/Src/Vas_common.cpp:15:7:bool setVal(uint32_t, uint32_t)	1
